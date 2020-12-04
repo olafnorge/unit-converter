@@ -19,7 +19,7 @@
     "report": "vendor/bin/phpmetrics --report-html=report --exclude='.github,.notes,.vscode,bin,docs,node_modules,report,tests,vendor' ."
   },
   "require": {
-    "php": "^7.1",
+    "php": ">=7.1",
     "ext-bcmath": "*"
   },
   "require-dev": {
